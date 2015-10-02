@@ -1,4 +1,5 @@
 <div class="row">
+<!-- display all reviews as clickable links -->
   <div class="col-sm-4">
       <p ng-repeat="item in reviews">
         <a ui-sref="reviews.reviewDisplay( { reviewId: item.id })">{{ item.title }}</a>
@@ -6,9 +7,10 @@
   </div>
 
   <div class="col-sm-8">
-
+<!-- display clicked on review -->
     <div ui-view="body"></div>
 
+<!-- form to add new reviews -->
     <div class="review-form">
     <h2 id="form-header">Create New Movie Review</h2>
       <form ng-submit="ReviewsFactory.addReview()" role="form">

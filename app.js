@@ -1,6 +1,7 @@
 var nicksFlix = angular.module('nicksFlix', ['ui.router']);
 
 nicksFlix.config(function($stateProvider, $urlRouterProvider) {
+  //Home page
   $stateProvider.state('home', {
     url: "",
     views: {
@@ -14,6 +15,7 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
     }
   });
 
+  //Lists all reviews and displays the form to add new reviews
   $stateProvider.state('reviews', {
     url: "/reviews",
     views: {
@@ -28,6 +30,7 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
     }
   });
 
+  // Displays title and body of the review clicked on
   $stateProvider.state('reviews.reviewDisplay', {
     url: "/:reviewId",
     views: {

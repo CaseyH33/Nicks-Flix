@@ -1,5 +1,6 @@
 nicksFlix.factory('ReviewsFactory', function ReviewsFactory() {
   var factory = {};
+  // Five hard coded reviews
   factory.reviews = [
     {
       title: "Citizen Kane: Properly Rated by Critics",
