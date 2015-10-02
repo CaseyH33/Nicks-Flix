@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="nicksFlix">
+  <head>
+    <title>Nick's Flicks</title>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/ReviewsController.js"></script>
+    <script src="services/ReviewsFactory.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div ui-view="header"></div>
+      <div ui-view="list"></div>
+      <div ui-view="body"></div>
+    </div>
+  </body>
+</html>
