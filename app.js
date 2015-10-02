@@ -23,7 +23,7 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
       },
       'list': {
         templateUrl: "partials/list.html"
-      }
+      },
       'body': {
         templateUrl: "partials/review.html",
         controller: "ReviewsCtrl"

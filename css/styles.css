@@ -1,7 +1,13 @@
-#header {
-  border-bottom: 2px;
-}
-
 #home {
   text-align: center;
+  padding: 200px;
+}
+
+.sub-header {
+  color: gray;
+}
+
+.btn-enter {
+  background-color: lightgray;
+  width: 150px !important;
 }
