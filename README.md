@@ -16,7 +16,7 @@ Nick's Flix is a website designed to allow users to add reviews to movies.  Afte
 
 ## Technologies Used
 
-HTML, CSS, Bootstrap, JavaScript, AngularJS
+HTML, CSS, Bootstrap, JavaScript, AngularJS, AngularUI
 
 ### Legal
 
