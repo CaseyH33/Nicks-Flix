@@ -1,16 +1,14 @@
 <div class="row">
   <div class="col-sm-4">
       <p ng-repeat="item in reviews">
-        <a ui-sref="reviews( { reviewId: item.id })">{{ item.title }}</a>
+        <a ui-sref="reviews.reviewDisplay( { reviewId: item.id })">{{ item.title }}</a>
       </p>
   </div>
 
-  <div class="col-sm-8">
-    <div>
-      <h2>{{ review.title }}</h2>
-      <h4>{{ review.reviewBody }}</h4>
-    </div>
 
+
+  <div class="col-sm-8">
+    <div ui-view="body"></div>
     <div>
     <h2>Create New Movie Review</h2>
       <form ng-submit="ReviewsFactory.addReview()" role="form">

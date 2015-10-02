@@ -22,13 +22,13 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
         // controller: "HeadersCtrl"
       },
       'body': {
-        templateUrl: "partials/review.html",
+        templateUrl: "partials/reviews.html",
         controller: "ReviewsCtrl"
       }
     }
   });
 
-  $stateProvider.state('reviews.review', {
+  $stateProvider.state('reviews.reviewDisplay', {
     url: "/:reviewId",
     views: {
       'header': {
@@ -36,8 +36,8 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
         // controller: "HeadersCtrl"
       },
       'body': {
-        templateUrl: "partials/review.html",
-        controller: "ReviewsCtrl"
+        templateUrl: "partials/reviews.reviewDisplay.html",
+        controller: "ReviewDisplayCtrl"
       }
     }
   });
