@@ -1,5 +1,6 @@
-body {
-  filter: invert(0%);
+.night-mode {
+  background-color: black;
+  -webkit-filter: invert(100%);
 }
 
 #home {
