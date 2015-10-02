@@ -1,0 +1,5 @@
+<div class="container" id="list">
+  <p ng-repeat="item in reviews">
+    <a ui-sref="reviews( { reviewId: item.id })">{{ item.reviewTitle }}</a>
+  </p>
+</div>
