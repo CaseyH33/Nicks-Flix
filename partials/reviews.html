@@ -9,8 +9,8 @@
 
   <div class="col-sm-8">
     <div ui-view="body"></div>
-    <div>
-    <h2>Create New Movie Review</h2>
+    <div class="review-form">
+    <h2 id="form-header">Create New Movie Review</h2>
       <form ng-submit="ReviewsFactory.addReview()" role="form">
         <div class="form-group">
           <input type="text" ng-model="ReviewsFactory.reviewTitle" class="form-control" placeholder="Enter the title for the review here" required>
@@ -18,7 +18,7 @@
         <div class="form-group">
           <input type="text" ng-model="ReviewsFactory.reviewBody" class="form-control" placeholder="Enter the review here" required>
         </div>
-        <button type="submit" class="btn btn-default btn-enter">Submit</button>
+        <button type="submit" class="btn btn-default btn-enter btn-review">Submit</button>
       </form>
     </div>
   </div>
