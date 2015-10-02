@@ -1,3 +1,5 @@
+
+/*inverts colors and changes background to black when night mode is activate*/
 .night-mode {
   background-color: black;
   -webkit-filter: invert(100%);

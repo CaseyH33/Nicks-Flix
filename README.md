@@ -1,12 +1,12 @@
 # Nick's Flix
 
-##### Fill in later (10/2/15)
+##### A website that allows users to view and add movie reviews (10/2/15)
 
 #### By Casey Heitz
 
 ## Description
 
-Fill in later
+Nick's Flix is a website designed to allow users to add reviews to movies.  After entering the site from the home page, all reviews are listed by their title along the left of the screen.  Users can click on any review to read it.  Also, users are able to add their own reviews to any movie they wish. In addition, there is a button users can click at any time, toggling a "Night Mode", which inverts the colors and makes the background black.
 
 ## Setup
 
